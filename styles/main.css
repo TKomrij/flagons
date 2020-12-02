@@ -1,5 +1,6 @@
 @import './teamNameForm.css';
 @import './scoringArea.css';
+@import './contestantInfo.css';
 
 .main__header {
   text-align: center;
