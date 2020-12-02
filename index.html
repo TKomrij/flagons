@@ -8,26 +8,35 @@
 </head>
 <body>
     <header>
-        <h1>Truncheons and Flagons</h1>
+        <h1 class="main__header">Truncheons and Flagons</h1>
     </header>
-    <article class="team__name">
-        <h2>Team Name</h2>
-            <div class="enter__name">
+    <article class="team__container">
+        <section class="team__name">
+            <h2 class="team__name_header">Team Name</h2>
+                <form class="enter__name">
+                    <fieldset>
+                        <div class="form__input">
+                            <label for="form__input_name">Team Name</label>
+                            <input class="form__fill_in" type="text" name="teamName" id="teamName">
+                        </div>
+                    </fieldset>
+                </form>
+        </section>
+        <section class="contestant__information">
+            <h2>Contestant Information</h2>
+                <form class="contestant__name">
 
-            </div>
+                </form>
+                <form class="assign__team">
+
+                </form>
+        </section>
     </article>
-    <article class="contestant__information">
-        <h2>Contestant Information</h2>
-            <form class="contestant__name">
-
-            </form>
-            <form class="assign__team">
-
-            </form>
-    </article>
+    <h2 class="scoring__area_header">Scoring Area</h2>
     <article class="scoring__container">
-        <h2>Scoring Area</h2>
+        
             <section class="team__options">
+                <h3>Team Selection</h3>
                 <select>
                     <option class="team__a">
 
@@ -44,6 +53,7 @@
                 </div>
             </section>
             <section class="current__score">
+                <h3>Current Score</h3>
                 <form class="teama__points">
 
                 </form>
@@ -58,6 +68,7 @@
                 </div>
             </section>
             <section class="total__score">
+                <h3>Current Total Score</h3>
                 <div class="teama__total">
 
                 </div>
