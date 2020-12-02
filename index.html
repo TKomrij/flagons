@@ -19,11 +19,12 @@
                             <label for="form__input_name">Team Name</label>
                             <input class="form__fill_in" type="text" name="teamName" id="teamName">
                         </div>
+                        <button>Create Team</button>
                     </fieldset>
                 </form>
         </section>
         <section class="contestant__information">
-            <h2>Contestant Information</h2>
+            <h2 class="contestant__info_header">Contestant Information</h2>
                 <form class="contestant__name">
                    <fieldset>
                        <div class="form__input">
@@ -33,12 +34,16 @@
                                 <input class="form__fill_in"
                                 type="text" name="contestantName" id="contestantName">
                        </div>
+                       <div>
+                            <label for="form__team_assignment">Assign Team</label>
+                            <select class="assign__team">
+                                <option type="assign">team a</option>
+                                <option type="assign">team b</option>
+                                <option type="assign">team c</option>
+                            </select>
+                        </div>
+                        <button>create contestant</button>
                    </fieldset> 
-                </form>
-                <form class="assign__team">
-                    <div class="button">
-                        <button type="assign">Assign To Team</button>
-                    </div>
                 </form>
         </section>
     </article>
@@ -46,16 +51,16 @@
     <article class="scoring__container">
         
             <section class="team__options">
-                <h3>Team Selection</h3>
+                <h3 class="team__options_header">Team Selection</h3>
                 <select>
                     <option class="team__a">
-
+                        team a
                     </option>
                     <option class="team__b">
-
+                        team b
                     </option>
                     <option class="team__c">
-
+                        team c
                     </option>
                 </select>
                 <div class="start__button">
