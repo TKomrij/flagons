@@ -1,0 +1,10 @@
+@import './teamNameForm.css';
+@import './scoringArea.css';
+
+.main__header {
+  text-align: center;
+}
+
+.team__container {
+  display: flex;
+}

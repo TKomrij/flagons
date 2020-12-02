@@ -1,0 +1,8 @@
+.scoring__area_header {
+  text-align: center;
+}
+
+.scoring__container {
+  display: flex;
+  justify-content: space-around;
+}
